@@ -1,2 +1,0 @@
-# Fingerprint
-vendor.egistec.hardware.fingerprint::IBiometricsFingerprintEts                           u:object_r:hal_fingerprint_hwservice:s0

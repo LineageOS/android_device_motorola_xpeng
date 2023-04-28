@@ -1,5 +1,0 @@
-# Write to /dev/kmsg
-allow vendor_init_fingerprint kmsg_device:chr_file rw_file_perms;
-
-allow vendor_init_fingerprint kernel:key search;
-allow vendor_init_fingerprint mnt_vendor_file:file { getattr open read };
