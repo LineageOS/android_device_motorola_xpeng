@@ -1,2 +1,0 @@
-allow hal_fingerprint_default vendor_sysfs_fingerprint:dir search;
-allow hal_fingerprint_default vendor_sysfs_fingerprint:file { getattr open write };
