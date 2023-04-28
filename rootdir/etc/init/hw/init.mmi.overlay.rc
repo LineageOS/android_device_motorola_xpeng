@@ -103,9 +103,3 @@ service gf_ident /vendor/bin/goodix_ident
     group system input uhid
     oneshot
     disabled
-
-service vendor.hal-fps-sh /vendor/bin/init.oem.fingerprint2.sh
-    class late_start
-    user root
-    group system
-    oneshot
