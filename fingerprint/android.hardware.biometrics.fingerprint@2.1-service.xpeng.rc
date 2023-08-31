@@ -1,4 +1,4 @@
-service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xpeng
+service vendor.goodix_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xpeng
     interface android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint default
     oneshot
     # "class hal" causes a race condition on some devices due to files created
@@ -7,3 +7,4 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     class late_start
     user system
     group system input uhid
+    disabled

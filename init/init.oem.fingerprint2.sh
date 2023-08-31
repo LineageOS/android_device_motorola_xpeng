@@ -27,7 +27,7 @@ function log {
 vendor_list=('egis' 'fpc' 'goodix')
 kernel_so_list=("/vendor/lib/modules/rbs_fps_mmi.ko" "/vendor/lib/modules/fpc1020_mmi.ko" "/vendor/lib/modules/goodix_fod_mmi.ko")
 kernel_so_name_list=("rbs_fps_mmi.ko" "fpc1020_mmi.ko" "goodix_fod_mmi.ko")
-hal_list=('ets_hal' 'fps_hal' 'vendor.fps_hal')
+hal_list=('ets_hal' 'fps_hal' 'vendor.goodix_hal')
 last_vendor_index=`expr ${#vendor_list[@]} - 1`
 vendor_list_size=${#vendor_list[@]}
 
