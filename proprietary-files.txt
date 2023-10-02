@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from xpeng_g-user 12 S1RXS32M.50-13-15 343f9-7dba8 release-keys.
+# All unpinned blobs below are extracted from xpeng_g-user 12 S1RXS32.50-13-20 3541e-0d9175 release-keys.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
