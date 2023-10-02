@@ -100,5 +100,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-xpeng.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/xpeng/xpeng-vendor.mk)
