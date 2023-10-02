@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-xpeng.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
+    $(LOCAL_PATH)/configs/thermal-engine-xpeng-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/xpeng/xpeng-vendor.mk)
