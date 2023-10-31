@@ -24,6 +24,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=xpeng_retail \
-    PRIVATE_BUILD_DESC="xpeng_g-user 12 S1RXS32.50-13-20 3541e-0d9175 release-keys"
+    PRIVATE_BUILD_DESC="xpeng_g-user 12 S1RXS32M.50-13-22 4a9156-e64ef release-keys"
 
-BUILD_FINGERPRINT := motorola/xpeng_g/xpeng:11/S1RXS32.50-13-20/3541e-0d9175:user/release-keys
+BUILD_FINGERPRINT := motorola/xpeng_g/xpeng:12/S1RXS32M.50-13-22/4a9156-e64ef:user/release-keys
