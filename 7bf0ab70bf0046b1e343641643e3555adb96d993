@@ -16,6 +16,24 @@
       "message": "removed override of aperture, if you merge this pls make vendor reflect this.",
       "revId": "7bf0ab70bf0046b1e343641643e3555adb96d993",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b34ed672_48a94b92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-11-28T07:37:50Z",
+      "side": 1,
+      "message": "err any specific reason to include Aperture? I thought the whole idea of including MotCamera was it\u0027s a way better camera app?\n\nAlso, you missed nuking Aperture overlay and also the commit message",
+      "parentUuid": "2fba7766_50ab5c4b",
+      "revId": "7bf0ab70bf0046b1e343641643e3555adb96d993",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
