@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fba7766_50ab5c4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-28T07:33:22Z",
+      "side": 1,
+      "message": "removed override of aperture, if you merge this pls make vendor reflect this.",
+      "revId": "7bf0ab70bf0046b1e343641643e3555adb96d993",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
