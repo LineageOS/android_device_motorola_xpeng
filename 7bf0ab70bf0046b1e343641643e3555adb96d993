@@ -34,6 +34,24 @@
       "parentUuid": "2fba7766_50ab5c4b",
       "revId": "7bf0ab70bf0046b1e343641643e3555adb96d993",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e22413b_f8205ebb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-28T17:11:38Z",
+      "side": 1,
+      "message": "Users want Aperture as well for some reason.\n\nAnd Aperture devs asked that we include it on all devices.",
+      "parentUuid": "b34ed672_48a94b92",
+      "revId": "7bf0ab70bf0046b1e343641643e3555adb96d993",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
