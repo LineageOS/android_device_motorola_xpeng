@@ -16,6 +16,24 @@
       "message": "I made a script to get the proper build fingerprint from Motorola devices\nhttps://gist.github.com/ThEMarD/142cb35b24304b627deff955a9c91ab9",
       "revId": "6a8c94a0bfbd49bc12b17d65383027fc26714da0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd26fab6_8aeedd22",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-30T06:39:41Z",
+      "side": 1,
+      "message": "love it. thx.",
+      "parentUuid": "52e0adc7_734b21b5",
+      "revId": "6a8c94a0bfbd49bc12b17d65383027fc26714da0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
