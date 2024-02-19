@@ -485,42 +485,36 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# MotCamera4
-product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
-product/etc/init/init.motcamera3.lens.rc
-product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED
-system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
-system/etc/permissions/com.motorola.motosignature.xml
-system/etc/permissions/moto-core_services.xml
-system/etc/permissions/moto-settings.xml
-system/framework/com.motorola.motosignature.jar
-system/framework/moto-core_services.jar
-system/framework/moto-settings.jar
-system_ext/bin/motsettings
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
-system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+# MotCamera4 - from eqs - motorola/eqs_g/eqs:12/S3SQS32.16-72-31-4/05740-206dd9:user/release-keys
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED|9e299196c174b4034a2512da2be5da541405407c
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|7df06ec01397dfba8860c84f71805b0895d14087
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|b759bdaf7baca0dcc8ee5e1d1faf51c78d43c4a1
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml|d99de1fb201aa63d9d543a41104013989fc84dc9
+product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED|0bb1f0c939aa6938b93ca20a099142ae177ad4ec
+system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED|39932462697588f579439fade91c89909e0c7b63
+system/etc/permissions/com.motorola.motosignature.xml|657458b1f279e2158db87925dcd518d48f9afcf7
+system/etc/permissions/moto-core_services.xml|df6f254caec439a38a71abb0c8ae50e11e8185ea
+system/etc/permissions/moto-settings.xml|b6b1f14810bc3916a64677d1b19d4fefc20a51fe
+system/framework/com.motorola.motosignature.jar|41c005f3da5eae8dae42af36c82747b89c27225b
+system/framework/moto-core_services.jar|1b62b6ebd8789a3c1289c7b62e24acc95801f185
+system/framework/moto-settings.jar|811408f49b1dd18d13716e3c7915ba59f9ecd56d
+system_ext/bin/motsettings|629acaf083fb5fb9ea171c8e87115918043cae90
+system_ext/framework/com.motorola.androidx.camera.extensions.jar|c800d27322300859fb132cedcea410e7cc19b5f9
+system_ext/etc/public.libraries-motocamera.txt|29ff03d20e668b106bdaafd77bff9902eb210c39
+system_ext/lib/libmcf_native_window_helper.motocamera.so|e6cf1cc996e0a0afc15ec3b71d2999d1be850805
+system_ext/lib64/libmcf_native_window_helper.motocamera.so|c2c4fa5b6a9e700525b2b1d1d3e5de7822542f3d
+system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk|c2d9795b7a8fc60d9c0d4a4ae237066bbda0024c
 
-# MotCamera4 - Libs
-system_ext/lib/libjni_helper.motocameradesktop.so
-system_ext/lib/libmcf_native_window_helper.motocamera.so
-system_ext/lib64/libjni_helper.motocameradesktop.so
-system_ext/lib64/libmcf_native_window_helper.motocamera.so
-
-# MotCamera4 - Permissions
-system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
-product/etc/permissions/com.motorola.camera3.content.ai.xml
-product/etc/permissions/com.motorola.camera3.lens.xml
-product/etc/permissions/com.motorola.camera3.xml
-product/etc/permissions/com.motorola.camera3.xpeng.xml
-product/etc/permissions/com.motorola.moto-uirefresh.xml
-product/etc/permissions/com.motorola.motodisplay.xml
-product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
-product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
-product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml
-product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-system/etc/permissions/com.motorola.frameworks.core.addon.xml
-system_ext/etc/public.libraries-motocamera.txt
-system_ext/etc/public.libraries-motocameradesktop.txt
+# Moto Permissions - from eqs - motorola/eqs_g/eqs:12/S3SQS32.16-72-31-4/05740-206dd9:user/release-keys
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/com.motorola.camera3.content.ai.xml|261f857c62c97286f492b3f5c69ff11226a06af0
+product/etc/permissions/com.motorola.camera3.eqs.xml|74ad06f36667fb98558572606afc3a993fd444a9
+product/etc/permissions/com.motorola.camera3.lens.xml|7dfafac8d89447a1e0bc93fd5cea5ca6e5c20bee
+product/etc/permissions/com.motorola.moto-uirefresh.xml|a5c91ea6d99ad0d14e6e13000516c89098621837
+product/etc/permissions/com.motorola.motodisplay.xml|8d2c13a91e2f89f61a82ec2dcfc1958b618a42a5
+product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml|54a9493312161097ee7b424e0e5ebb0c20fd595e
+system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml|91397cef8b878b6903daf2f2d533d74565012f94
 
 # NFC
 vendor/bin/STFlashTool
