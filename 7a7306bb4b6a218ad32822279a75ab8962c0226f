@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68cb32ca_f9cbfc84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-03-02T18:39:22Z",
+      "side": 1,
+      "message": "Fixes Argentinian apps \"Carga SUBE\" and \"SUBE\"",
+      "revId": "7a7306bb4b6a218ad32822279a75ab8962c0226f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
