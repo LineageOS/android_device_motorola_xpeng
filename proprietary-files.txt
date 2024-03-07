@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from xpeng_g-user 12 S1RXS32.50-13-23 37821c-6bd54 release-keys - RETEU variant.
+# All unpinned blobs below are extracted from xpeng_g-user 12 S1RXS32.50-13-25 5fb68-c44485 release-keys - RETEU variant.
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
