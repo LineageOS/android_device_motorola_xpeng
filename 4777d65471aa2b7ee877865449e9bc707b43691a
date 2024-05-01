@@ -16,6 +16,23 @@
       "message": "wip",
       "revId": "4777d65471aa2b7ee877865449e9bc707b43691a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9bc7fb6_427042b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-05-01T15:06:23Z",
+      "side": 1,
+      "message": "Commit message is a bit misleading, aptX/aptX HD works with software offloading as well.\nWith this commit you\u0027re routing data to the audio HAL so that ADSP can now handle the encoding and send it to the Bluetooth HAL instead\n\nAlso as a fyi: you\u0027re now missing routing for A2DP in, so no Bluetooth mics now",
+      "revId": "4777d65471aa2b7ee877865449e9bc707b43691a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
