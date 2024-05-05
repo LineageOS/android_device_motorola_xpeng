@@ -294,7 +294,7 @@ product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|7df06ec01397dfba8860c84f71805b0895d14087
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|b759bdaf7baca0dcc8ee5e1d1faf51c78d43c4a1
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml|d99de1fb201aa63d9d543a41104013989fc84dc9
-product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED|b4d82ced569b01af592da7d44a659e53fe3f4d20
+product/priv-app/MotCamera4/MotCamera4.apk|d75ac2dd28c6a9139eaa4cd96b030ee40b1ca347
 system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED|39932462697588f579439fade91c89909e0c7b63
 system/etc/permissions/com.motorola.motosignature.xml|657458b1f279e2158db87925dcd518d48f9afcf7
 system/etc/permissions/moto-core_services.xml|df6f254caec439a38a71abb0c8ae50e11e8185ea
