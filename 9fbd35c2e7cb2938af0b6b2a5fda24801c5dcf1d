@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6b892ec_e27819ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-07-18T19:53:56Z",
+      "side": 1,
+      "message": "confirmed on hardware variants both g200 and S30 that the device firmware works fine",
+      "revId": "9fbd35c2e7cb2938af0b6b2a5fda24801c5dcf1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
