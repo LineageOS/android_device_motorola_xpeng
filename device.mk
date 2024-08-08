@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
     LineageApertureAppXpeng \
     LineagePlatformXpeng \
     LineageSystemUIXpeng \
-    SettingsProviderResXpeng \
     SystemUIResXpeng \
     WifiResXpeng
 
