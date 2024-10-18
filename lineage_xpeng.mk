@@ -23,7 +23,6 @@ PRODUCT_MODEL := moto g200 5G
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=xpeng_retail \
-    PRIVATE_BUILD_DESC="xpeng_g-user 12 S1RXS32.50-13-25 5fb68-c44485 release-keys"
-
-BUILD_FINGERPRINT := motorola/xpeng_g/xpeng:12/S1RXS32.50-13-25/5fb68-c44485:user/release-keys
+    BuildDesc="xpeng_g-user 12 S1RXS32.50-13-25 5fb68-c44485 release-keys" \
+    BuildFingerprint=motorola/xpeng_g/xpeng:12/S1RXS32.50-13-25/5fb68-c44485:user/release-keys \
+    DeviceProduct=xpeng_retail
