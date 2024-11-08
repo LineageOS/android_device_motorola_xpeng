@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022-2023 The LineageOS Project
+     Copyright (C) 2022-2024 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
@@ -176,13 +176,32 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -50,0
-        L 50,0
-		L 50,115
-		L -50,115
-		Z
-	</string>
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">
+        M 503.5,65
+        a 36.5,36.5 0 1 0 73,0
+        a 36.5,36.5 0 1 0 -73,0
+        Z
+        @left
+    </string>
+
+    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
+         one single bounding rect per device edge to the app via
+         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
+         appearance of the cutout as much as possible, and may be smaller than
+         config_mainBuiltInDisplayCutout
+         -->
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">
+        M -36.5 0
+        L -36.5 130
+        L 36.5 130
+        L 36.5 0
+        Z
+    </string>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+         -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
 	<!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true

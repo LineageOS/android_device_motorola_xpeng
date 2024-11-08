@@ -10,13 +10,13 @@
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">19.0px</dimen>
 
-    <dimen name="rounded_corner_content_padding">5.0px</dimen>
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
 
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
+    <dimen name="keyguard_carrier_text_margin">4dp</dimen>
 
     <dimen name="system_icons_keyguard_padding_end">9.0px</dimen>
 
@@ -40,17 +40,6 @@
     <dimen name="physical_volume_up_button_center_screen_location_y">300px</dimen>
     <dimen name="physical_volume_down_button_center_screen_location_y">482px</dimen>
 
-    <!-- Configure  protection around the front-facing camera -->
-    <string name="config_frontBuiltInDisplayCutoutProtection">
-        M 661,72
-        a 57,57 0 1 0 114,0
-        a 57,57 0 1 0 -114,0
-        Z
-    </string>
-
-    <!-- Camera 1 is the front camera -->
-    <string name="config_protectedCameraId">1</string>
-
-    <!--  Flag to turn on the rendering of the above path or not  -->
-    <bool name="config_enableDisplayCutoutProtection">true</bool>
+    <!--  Total minimum padding to enforce to ensure that the dot can always show  -->
+    <dimen name="ongoing_appops_dot_min_padding">14dp</dimen>
 </resources>
