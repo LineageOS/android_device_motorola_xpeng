@@ -26,8 +26,17 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 
+
+def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}_{partition}' if partition == 'vendor' else None
+
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    (
+        'motorola.hardware.camera.desktop@1.0',
+        'motorola.hardware.camera.desktop@2.0',
+    ): lib_fixup_vendor_suffix,
 }
 
 extract_fns: extract_fns_user_type = {
