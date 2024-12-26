@@ -117,6 +117,25 @@ vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/libvidhance_zoom_stabilization.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
+# Camera - from eqs - motorola/eqs_g/msi:12/S3SQ32.16-16-22/395c0-8c64a:user/release-keys
+vendor/lib64/frontier_arcsoft_portrait_super_night_se_raw.bin|a0bd5c0342e2ca5192021259e44518fdd9460f1f
+vendor/lib64/frontier_arcsoft_super_night_raw.bin|7011842c6528db982ebdf35f8f7b864446c89afd
+vendor/lib64/frontier_arcsoft_super_night_se_raw.bin|12809de53c02475e078862254b28fee4a3bfc226
+vendor/lib64/libarcsoft_chi_utils.so|a2a8bf415e2ff3e5a6d6561af30cd5db7da4d49a
+vendor/lib64/libarcsoft_hdr_detection.so|a6eeb755b955dffcdfb00acdb9690ead4bf51db7
+vendor/lib64/libarcsoft_high_dynamic_range.so|932320eafe230580e48e487fb7242ef12ca92d69
+vendor/lib64/libarcsoft_mcxmflpolicy.so|5bf3a7034fb6f488b6545daf17518e8496ec8b3f
+vendor/lib64/libarcsoft_portrait_super_night_se_raw.so|00dab890a638ab2506f0e6dfa5f382614dce777d
+vendor/lib64/libarcsoft_qnnhtp.so|b80da1af5d0deda4115eb122b5ff858eeb0283ad
+vendor/lib64/libarcsoft_super_night_raw.so|3477560f097e92592a287d5e4a5f5db2a8fc7a5b
+vendor/lib64/libarcsoft_super_night_se_raw.so|ae786debda759297ad4a1167eebde0ff638b2bed
+vendor/lib64/libarcsoft_triple_sat.so|3289ad3633f7092a3e1b2b141d60f2dfc2c39dbb
+vendor/lib64/libarcsoft_triple_zoomtranslator.so|4095273f3c21c620d4cf93395492a0adb435f241
+vendor/lib64/libcamxcommonutils.so|a0fc6dbfc929f14cd33dcc1c9e6f6f0198ec4985
+vendor/lib64/libcamxsettingsmanager.so|47d3ec358c93e341521cdef30555083ed845a4ad
+vendor/lib64/libtriplecam_optical_zoom_control.so|7d9d618320c0af52ab555cc577bd663dd93c6eda
+vendor/lib64/libtriplecam_video_optical_zoom.so|f09fd45462423a31f44209549ae9c6a3cebf0eb8
+
 # Camera - Components
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
@@ -178,6 +197,10 @@ vendor/lib64/camera/components/com.vidhance.node.ica.so
 vendor/lib64/camera/components/com.vidhance.node.processing.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
+
+# Camera - Components - from eqs - motorola/eqs_g/msi:12/S3SQ32.16-16-22/395c0-8c64a:user/release-keys
+vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so|cdcff3baf5663ba33e4f2b5675c05eae875c104d
+vendor/lib64/camera/components/com.arcsoft.node.supernightraw.so|2cd1223cef98c2f92492e68d328792ab68a29243
 
 # Camera - eeprom
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_hi1336_eeprom.so
@@ -293,7 +316,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 # MotCamera4 - from eqs - motorola/eqs_g/msi:12/S3SQ32.16-16-22/395c0-8c64a:user/release-keys
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED|9e299196c174b4034a2512da2be5da541405407c
 product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
-product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|7df06ec01397dfba8860c84f71805b0895d14087
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|190b3ce907c094a030c515895e21c6afcecbafc4
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|b759bdaf7baca0dcc8ee5e1d1faf51c78d43c4a1
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml|d99de1fb201aa63d9d543a41104013989fc84dc9
 product/priv-app/MotCamera4/MotCamera4.apk|d75ac2dd28c6a9139eaa4cd96b030ee40b1ca347
@@ -305,17 +328,17 @@ system/framework/com.motorola.motosignature.jar|41c005f3da5eae8dae42af36c82747b8
 system/framework/moto-core_services.jar|d7a4e78d8f93f3ce2f6164b60ec639553c3e8e09
 system/framework/moto-settings.jar|377dab9fc73ff5cc22f39bedce025432e700b31a
 system_ext/bin/motsettings|629acaf083fb5fb9ea171c8e87115918043cae90
-system_ext/framework/com.motorola.androidx.camera.extensions.jar|f48ae30d4524a30766bfa61703582613a3ef1a5d
 system_ext/etc/public.libraries-motocamera.txt|29ff03d20e668b106bdaafd77bff9902eb210c39
+system_ext/framework/com.motorola.androidx.camera.extensions.jar|f48ae30d4524a30766bfa61703582613a3ef1a5d
 system_ext/lib/libmcf_native_window_helper.motocamera.so|e6cf1cc996e0a0afc15ec3b71d2999d1be850805
 system_ext/lib64/libmcf_native_window_helper.motocamera.so|c2c4fa5b6a9e700525b2b1d1d3e5de7822542f3d
 system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk|2b8f6da5c99f999ca4de494fff78bf569a7589be
 
 # Moto Permissions - from eqs - motorola/eqs_g/msi:12/S3SQ32.16-16-22/395c0-8c64a:user/release-keys
-product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
 product/etc/permissions/com.motorola.camera3.content.ai.xml|261f857c62c97286f492b3f5c69ff11226a06af0
 product/etc/permissions/com.motorola.camera3.eqs.xml|74ad06f36667fb98558572606afc3a993fd444a9
 product/etc/permissions/com.motorola.camera3.lens.xml|7dfafac8d89447a1e0bc93fd5cea5ca6e5c20bee
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
 product/etc/permissions/com.motorola.moto-uirefresh.xml|a5c91ea6d99ad0d14e6e13000516c89098621837
 product/etc/permissions/com.motorola.motodisplay.xml|8d2c13a91e2f89f61a82ec2dcfc1958b618a42a5
 product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml|54a9493312161097ee7b424e0e5ebb0c20fd595e
