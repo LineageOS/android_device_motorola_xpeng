@@ -118,6 +118,8 @@ vendor/lib64/libvidhance_zoom_stabilization.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera - Components
+vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
+vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 vendor/lib64/camera/components/com.mot.node.c2d.so
 vendor/lib64/camera/components/com.mot.node.dc_capture.so
