@@ -118,6 +118,8 @@ vendor/lib64/libvidhance_zoom_stabilization.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera - Components
+vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
+vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 vendor/lib64/camera/components/com.mot.node.c2d.so
 vendor/lib64/camera/components/com.mot.node.dc_capture.so
@@ -227,11 +229,14 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
 # Camera - Motorola
+system_ext/lib64/libjni_helper.motocameradesktop.so
+system_ext/lib64/motorola.hardware.camera.desktop@1.0.so
+system_ext/lib64/motorola.hardware.camera.desktop@2.0.so
 vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service
 vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc
 vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc
-vendor/lib64/motorola.hardware.camera.desktop@1.0.so
-vendor/lib64/motorola.hardware.camera.desktop@2.0.so
+vendor/lib64/motorola.hardware.camera.desktop@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/motorola.hardware.camera.desktop@2.0.so;MODULE_SUFFIX=_vendor
 
 # Camera - sensor
 vendor/lib64/camera/com.qti.sensor.mot_hi1336.so
