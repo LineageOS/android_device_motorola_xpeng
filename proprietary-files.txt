@@ -290,6 +290,45 @@ product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
+# MotCamera3 - from xpeng - RRX31.Q3-59-42 RETEU
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED|4645c8507d5d565de88cb90c1f389ffcedc7d384
+product/priv-app/MotCamera3/MotCamera3.apk|751c94f1a187553cf325a6e4511a66bf91f8729f
+system/app/MotoSignature2App/MotoSignature2App.apk;PRESIGNED|400558902b2921f652797057d97055da89ad589c
+system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED|4f0950b04444f160e6c499b663e6264fa363a0c6
+system/framework/com.motorola.frameworks.core.addon.jar|45385312c32011b80f0e8bfa7628151c60d9a3eb
+system/framework/com.motorola.motosignature.jar|a4a871747131426771c25d887e79e9b0c70fc33b
+system_ext/framework/com.motorola.androidx.camera.extensions.jar|9d71fa30bb38889e874173350ba3e7ddcf7ed60b
+system_ext/framework/com.motorola.imager.V2.jar|f286621b7a1b554b705af7a0a74f7f38b3bc86c2
+system_ext/framework/com.motorola.libimgTuner.jar|aeb9b7b0a0a31341587336de7f6bfdf01aad2a05
+system_ext/priv-app/ImagerTuning-V2/ImagerTuning-V2.apk;PRESIGNED|9095bd3efaf1cb1602a1cc2b52addd9419e7d48b
+
+# MotCamera3 - Libs - from xpeng - RRX31.Q3-59-42 RETEU
+system/lib64/motorola.hardware.camera.imgtuner@1.0.so|3bb7ea240e276998c9cac292f995784820f23a8d
+system_ext/lib64/libimgTuner_jni.motoimagetuner.so|305d8eac79e48650ac5aa030a33fe6ae1444d409
+system_ext/lib64/libimscamera_jni.so|140dba66979472050d044958f2aaed537d18cdc2
+system_ext/lib64/libjni_helper.motocameradesktop.so|dd7781ec5384a8872bdb95b95521b7b568e53985
+
+# MotCamera3 - Permissions - from xpeng - RRX31.Q3-59-42 RETEU
+product/etc/permissions/com.motorola.camera3.content.ai.xml|261f857c62c97286f492b3f5c69ff11226a06af0
+product/etc/permissions/com.motorola.camera3.lens.xml|7dfafac8d89447a1e0bc93fd5cea5ca6e5c20bee
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/com.motorola.camera3.xpeng.xml|fddf7d8800b6ccabdaa838de0654e73b0df94d1b
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|190b3ce907c094a030c515895e21c6afcecbafc4
+product/etc/permissions/feature-com.motorola.screenshoteditor.xml|204c95bbf71d00124c9d3a049e3c8739a3ee7b9e
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|08e1783145cb6fe090bd85afea4522bf67918a22
+system/etc/permissions/com.motorola.frameworks.core.addon.xml|3940e9a53d6adf12cb2e567c5f07cc3eafc3c4cd
+system/etc/permissions/com.motorola.motosignature.xml|657458b1f279e2158db87925dcd518d48f9afcf7
+system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml|91397cef8b878b6903daf2f2d533d74565012f94
+system_ext/etc/permissions/com.motorola.camera.desktop.xml|2ad6834eee87050ca48be79dbb5b59894e560fda
+system_ext/etc/permissions/com.motorola.imager.V2.xml|90b0e952e5ccf087185ec7e3581b784d11ff4a8b
+system_ext/etc/permissions/com.motorola.imager.access_V2.xml|1475534f8560898181d13178c57d9b71949d3142
+system_ext/etc/permissions/com.motorola.libimgTuner.xml|51dd6aab938c23ad37127705c5d9824f1c0ec5fb
+system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning_V2.xml|3a55183b3c37fea3105e85d74c5ffa0b5e728a2c
+system_ext/etc/permissions/privapp-permissions-com.motorola.motcameradesktop.xml|d4448924e19a0970a8316413cca2c07a43413e53
+system_ext/etc/public.libraries-motocamera.txt|29ff03d20e668b106bdaafd77bff9902eb210c39
+system_ext/etc/public.libraries-motocameradesktop.txt|64d84bd5353558e8fbc2b509bff0b6273dfce24a
+system_ext/etc/public.libraries-motoimagetuner.txt|02c99d96e7364e1f1f5dbaa871b1c2d48527a3a2
+
 # NFC
 vendor/bin/STFlashTool
 
