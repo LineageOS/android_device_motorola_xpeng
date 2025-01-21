@@ -13,7 +13,7 @@ include device/motorola/sm7325-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := xpeng
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_xpeng.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=xpeng
