@@ -1,0 +1,44 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.ets.rc",
+    src: "init.ets.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mmi.overlay.rc",
+    src: "init.mmi.overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.xpeng.rc",
+    src: "init.recovery.xpeng.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "init.vendor.st21nfc.rc",
+    src: "init.vendor.st21nfc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint2.sh",
+    src: "init.oem.fingerprint2.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "load_touch.sh",
+    src: "load_touch.sh",
+    recovery: true,
+}
