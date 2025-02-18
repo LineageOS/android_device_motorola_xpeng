@@ -293,9 +293,6 @@ product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# NFC
-vendor/bin/STFlashTool
-
 # NFC - configs
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci-st.conf

@@ -46,7 +46,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    ('vendor/bin/STFlashTool', 'vendor/lib64/sensors.moto.so'): blob_fixup()
+    ('vendor/lib64/sensors.moto.so'): blob_fixup()
         .add_needed('libbase_shim.so'),
 }  # fmt: skip
 
