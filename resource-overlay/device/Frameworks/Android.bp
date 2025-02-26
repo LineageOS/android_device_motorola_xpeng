@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "FrameworksResXpeng",
-    vendor: true
+    vendor: true,
 }

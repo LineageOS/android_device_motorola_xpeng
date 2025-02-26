@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "SettingsProviderResXpeng",
-    vendor: true
+    vendor: true,
 }
