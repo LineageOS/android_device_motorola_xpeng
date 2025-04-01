@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineagePlatformXpeng",
+    name: "LineagePlatformDevice",
     vendor: true,
 }

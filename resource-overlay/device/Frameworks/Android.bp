@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResXpeng",
+    name: "FrameworksResDevice",
     vendor: true,
 }

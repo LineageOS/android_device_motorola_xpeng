@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageApertureAppXpeng",
+    name: "LineageApertureAppDevice",
     vendor: true,
 }
