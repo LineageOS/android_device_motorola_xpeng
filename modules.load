@@ -83,7 +83,6 @@ utags.ko
 mmi_info.ko
 mmi_annotate.ko
 sensors_class.ko
-watchdogtest.ko
 exfat.ko
 bm_adsp_ulog.ko
 mmi_charger.ko
@@ -97,7 +96,6 @@ leds_lm3697.ko
 touchscreen_mmi.ko
 nova_0flash_mmi.ko
 st21nfc.ko
-moto_f_usbnet.ko
 sx937x_sar.ko
 mmi_sys_temp.ko
 aw37501.ko

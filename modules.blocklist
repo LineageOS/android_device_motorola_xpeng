@@ -102,8 +102,6 @@ blocklist utags
 blocklist goodix_fod_mmi
 blocklist fpc1020_mmi
 blocklist rbs_fps_mmi
-blocklist watchdogtest
-blocklist moto_f_usbnet
 blocklist leds_aw99703
 blocklist leds_lm3697
 #
