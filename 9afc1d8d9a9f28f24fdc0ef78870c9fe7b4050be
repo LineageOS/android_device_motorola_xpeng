@@ -16,6 +16,24 @@
       "message": "In the reality a little notification LED is available, but it\u0027s too close to the light sensor and negative interfere with it.",
       "revId": "9afc1d8d9a9f28f24fdc0ef78870c9fe7b4050be",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d8dc9a2_b1aa2a6e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-04-14T00:15:22Z",
+      "side": 1,
+      "message": "Well, meh, lineage basically dictates supporting it if it\u0027s there - reverted it.",
+      "parentUuid": "c44f5d41_705cbd83",
+      "revId": "9afc1d8d9a9f28f24fdc0ef78870c9fe7b4050be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
