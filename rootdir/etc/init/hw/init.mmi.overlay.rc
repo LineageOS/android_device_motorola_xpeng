@@ -15,6 +15,7 @@ on early-init
     insmod /vendor/lib/modules/leds_lm3697.ko
     insmod /vendor/lib/modules/mmi_charger.ko
     insmod /vendor/lib/modules/mmi_sys_temp.ko
+    insmod /vendor/lib/modules/nova_0flash_mmi.ko
     insmod /vendor/lib/modules/qpnp_adaptive_charge.ko
     insmod /vendor/lib/modules/qti_glink_charger.ko
     insmod /vendor/lib/modules/wl2866d.ko
