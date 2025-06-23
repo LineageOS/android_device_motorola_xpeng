@@ -31,7 +31,7 @@ on boot
 on property:sys.usb.config=fastboot
     start load_touch
 
-service load_touch vendor/bin/load_touch.sh
+service load_touch /system/bin/load_touch.sh
     oneshot
     disabled
     user root
