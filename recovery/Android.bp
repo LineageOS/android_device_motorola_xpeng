@@ -3,13 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-prebuilt_etc {
-    name: "init.recovery.xpeng.rc",
-    src: "etc/init.recovery.xpeng.rc",
-    sub_dir: "init",
-    recovery: true,
-}
-
 sh_binary {
     name: "load_touch.sh",
     src: "bin/load_touch.sh",
