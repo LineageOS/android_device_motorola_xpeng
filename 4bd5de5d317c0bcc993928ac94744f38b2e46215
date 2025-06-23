@@ -16,6 +16,24 @@
       "message": "You shouldn\u0027t be copying files to the root dir instead of recovery",
       "revId": "4bd5de5d317c0bcc993928ac94744f38b2e46215",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90d113ed_ea33224a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2025-06-23T04:27:37Z",
+      "side": 1,
+      "message": "then, the correct path is recovery/root ?",
+      "parentUuid": "6395cbdc_1ec7d72c",
+      "revId": "4bd5de5d317c0bcc993928ac94744f38b2e46215",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
