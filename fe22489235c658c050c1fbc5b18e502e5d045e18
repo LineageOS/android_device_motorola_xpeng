@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a74bb9d_af1885b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-06-25T22:19:00Z",
+      "side": 1,
+      "message": "Not needed as this doesn\u0027t help fix touchscreen in recovery anyways",
+      "revId": "fe22489235c658c050c1fbc5b18e502e5d045e18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
