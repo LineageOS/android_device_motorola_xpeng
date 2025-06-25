@@ -34,6 +34,24 @@
       "parentUuid": "6395cbdc_1ec7d72c",
       "revId": "4bd5de5d317c0bcc993928ac94744f38b2e46215",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cebf7124_d8f2f968",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-06-25T14:48:03Z",
+      "side": 1,
+      "message": "We shouldn\u0027t need to copy to root of recovery anyways. I\u0027m pretty sure everything in recovery/root/system/etc/init will get read, so we should move our init.qcom.recovery.rc to the same recovery system/etc spot too\n\nMy rtwo copies init.qcom.recovery.rc there and I can see in my dmesg that it gets imported\n\n[    1.140004] init: Parsing file /system/etc/init/android.hardware.boot-service.qti.recovery.rc...\n[    1.140015] init: Parsing file /system/etc/init/android.hardware.health-service.qti_recovery.rc...\n[    1.140033] init: Parsing file /system/etc/init/init.qcom.recovery.rc...\n[    1.140046] init: Parsing file /system/etc/init/servicemanager.recovery.rc...\n[    1.140054] init: Parsing file /system/etc/init/snapuserd.rc...",
+      "parentUuid": "90d113ed_ea33224a",
+      "revId": "4bd5de5d317c0bcc993928ac94744f38b2e46215",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
