@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
+# LiveDisplay
+$(call soong_config_set,livedisplay_motorola,enable_ab,false)
+$(call soong_config_set,livedisplay_motorola,enable_af,false)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
