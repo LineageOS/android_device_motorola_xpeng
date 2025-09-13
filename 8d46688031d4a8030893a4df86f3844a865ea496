@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1c63618_aa9645f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-09-13T08:09:40Z",
+      "side": 1,
+      "message": "This was cherry-picked from 22.2 branch as it was merged there already and not this branch",
+      "revId": "8d46688031d4a8030893a4df86f3844a865ea496",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
