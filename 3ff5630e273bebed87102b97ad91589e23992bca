@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "def3efb7_24ae2ca6",
+        "filename": "extract-files.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T04:09:05Z",
+      "side": 1,
+      "message": "```suggestion\n    \u0027vendor/lib64/sensors.moto.so\u0027: blob_fixup()\n```",
+      "revId": "3ff5630e273bebed87102b97ad91589e23992bca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
