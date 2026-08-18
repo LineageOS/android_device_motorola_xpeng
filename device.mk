@@ -94,10 +94,6 @@ $(call soong_config_set_bool,moto_sensors,udfps,false)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-xpeng-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
-
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.motorola
