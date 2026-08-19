@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b94558a2_5326050b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-08-19T00:00:32Z",
+      "side": 1,
+      "message": "Hmm, for some reason, it\u0027s still extracting the regular thermal config and not the game-perf one",
+      "revId": "77e64ce1f1992bb3f530081c99b23694e4f3e56d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
