@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="china_broadnet_name">中國廣電</string>
+    <string name="china_mobile_name">中國移動</string>
+    <string name="china_telecom_name">中國電信</string>
+    <string name="china_tietong_name">中國鐵通</string>
+    <string name="china_unicom_name">中國聯通</string>
+</resources>

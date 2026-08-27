@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config mcc="460" mnc="00">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="01">
+        <string name="carrier_name_string">@string/china_unicom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="02">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="03">
+        <string name="carrier_name_string">@string/china_telecom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="05">
+        <string name="carrier_name_string">@string/china_telecom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="06">
+        <string name="carrier_name_string">@string/china_unicom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="07">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="08">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="09">
+        <string name="carrier_name_string">@string/china_unicom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="10">
+        <string name="carrier_name_string">@string/china_unicom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="11">
+        <string name="carrier_name_string">@string/china_telecom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="12">
+        <string name="carrier_name_string">@string/china_telecom_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="13">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="15">
+        <string name="carrier_name_string">@string/china_broadnet_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="20">
+        <string name="carrier_name_string">@string/china_tietong_name</string>
+    </carrier_config>
+</carrier_config_list>
