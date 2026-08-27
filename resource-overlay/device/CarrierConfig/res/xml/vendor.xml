@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config mcc="460" mnc="00">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="02">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="07">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="08">
+        <string name="carrier_name_string">@string/china_mobile_name</string>
+    </carrier_config>
+</carrier_config_list>
