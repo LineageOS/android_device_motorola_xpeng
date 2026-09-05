@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44e160fe_07c658a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-09-05T03:35:57Z",
+      "side": 1,
+      "message": "ff chain to 24.0 as branches aren\u0027t divergent",
+      "revId": "25a682b66faf47f7590ec8718bd541ae96a33a36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
