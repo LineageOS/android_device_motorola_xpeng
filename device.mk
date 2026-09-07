@@ -78,7 +78,9 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
-# Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/android.hardware.exclude-nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_d/android.hardware.exclude-nfc.xml
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
@@ -103,6 +105,13 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.motorola
 
 $(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touchscreen/primary/interpolation)
+
+# VINTF
+ODM_MANIFEST_SKUS += d n
+ODM_MANIFEST_D_FILES := \
+    $(DEVICE_PATH)/vintf/manifest_d.xml
+ODM_MANIFEST_N_FILES := \
+    device/motorola/sm7325-common/vintf/manifest_ss.xml
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/xpeng/xpeng-vendor.mk)
