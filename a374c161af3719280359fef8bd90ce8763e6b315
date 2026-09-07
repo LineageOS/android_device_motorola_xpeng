@@ -69,6 +69,24 @@
       "parentUuid": "a70124ee_c86d20f8",
       "revId": "a374c161af3719280359fef8bd90ce8763e6b315",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "089c288f_20d4f191",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-09-07T02:18:38Z",
+      "side": 1,
+      "message": "I understand the concern about having two camera apps, but I don\u0027t think this should be treated as a general rule for every device.\n\nOn some Motorola devices, the stock camera is not just a duplicate app. It provides significantly better image quality and features that the current LineageOS camera cannot offer. In these cases, keeping MotoCamera can actually improve the user experience rather than make it worse.\n\nHaving two camera apps is a very minor inconvenience compared to losing important camera capabilities. Users who don\u0027t want the stock camera can also easily disable one of the apps from Settings.\n\nI think MotoCamera should be kept until the LineageOS camera can provide the same level of quality and features. Once we have a proper replacement, removing the stock camera would make more sense.\n\nMaybe this should be handled as a device-specific decision instead of removing MotoCamera from all Motorola devices by default. Some devices benefit from keeping the original camera experience.",
+      "parentUuid": "d9c3eac0_4383727a",
+      "revId": "a374c161af3719280359fef8bd90ce8763e6b315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
