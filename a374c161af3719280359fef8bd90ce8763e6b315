@@ -87,6 +87,24 @@
       "parentUuid": "d9c3eac0_4383727a",
       "revId": "a374c161af3719280359fef8bd90ce8763e6b315",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1a4fbff_5cffc111",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-09-07T02:19:47Z",
+      "side": 1,
+      "message": "He suggested make it a flashable addon package instead",
+      "parentUuid": "089c288f_20d4f191",
+      "revId": "a374c161af3719280359fef8bd90ce8763e6b315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
