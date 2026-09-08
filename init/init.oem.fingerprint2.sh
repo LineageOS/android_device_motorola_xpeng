@@ -14,7 +14,7 @@ script_name=${0##*/}
 # remove the file postfix
 script_name=${script_name%.*}
 function log {
-    echo "$script_name: $*" > /dev/kmsg
+    echo "<6> $script_name: $*" > /dev/kmsg
 }
 
 # for new projects, only need to config varible vendor_list,kernel_so_list,kernel_so_name_list,hal_list
@@ -103,15 +103,18 @@ function start_hal_service(){
         fi
     done
 
+    fps_status=$(getprop $prop_fps_status)
     log "fingerprint HAL status: $fps_status"
-    if [ $fps_status == $FPS_STATUS_OK ]; then
+    if [ "$fps_status" = "$FPS_STATUS_OK" ]; then
         log "start ${hal_list[$1]} hal success"
         setprop $prop_persist_fps ${vendor_list[$1]}
         return 0
     fi
 
-    log "start ${hal_list[$1]} hal failed, remove kernel so: ${kernel_so_name_list[$1]} "
+    log "start ${hal_list[$1]} hal failed, "
     setprop ctl.stop ${hal_list[$1]}
+    sleep 0.1
+    log "start ${hal_list[$1]} hal failed, remove kernel so: ${kernel_so_name_list[$1]} "
     rmmod ${kernel_so_name_list[$1]}
     sleep 0.1
     # if failed,return 255
