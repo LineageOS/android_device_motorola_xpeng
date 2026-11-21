@@ -166,6 +166,9 @@
 	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS" acdb_id="4" />
 	<device name="SND_DEVICE_IN_HANDSET_MIC_NS" acdb_id="4" />
 	<device name="SND_DEVICE_IN_HANDSET_MIC_NN" acdb_id="318" />
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NN" acdb_id="318" />
+	<device name="SND_DEVICE_IN_HANDSET_MIC_NS_NN" acdb_id="318" />
+	<device name="SND_DEVICE_IN_HANDSET_MIC_AEC_NS_NN" acdb_id="318" />
 	<device name="SND_DEVICE_IN_HANDSET_MIC_TOP" acdb_id="88" />
 	<device name="SND_DEVICE_IN_HANDSET_MIC_NN_TOP" acdb_id="88" />
 	<device name="SND_DEVICE_IN_SPEAKER_DMIC" acdb_id="35" />
