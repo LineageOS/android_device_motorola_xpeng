@@ -1,4 +1,5 @@
 # Audio
+persist.vendor.audio.fluence.voicecomm=true
 persist.vendor.audio.speaker.stereo=false
 
 # Camera

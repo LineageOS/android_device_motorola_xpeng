@@ -2282,6 +2282,10 @@
         <ctl name="IIR0 INP0 MUX" value="DEC2" />
     </path>
 
+    <path name="dmic-nn">
+        <path name="dmic-endfire" />
+    </path>
+
     <path name="handset-stereo-dmic-ef">
         <path name="handset-dmic-endfire" />
     </path>
